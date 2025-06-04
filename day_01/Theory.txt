@@ -1,0 +1,44 @@
+1. Python's Built-in Data Types and Their Use-Cases
+ Python has built-in types like:
+ - int, float, complex - for numbers
+ - str - for text
+ - list, tuple, range - for sequences 
+- dict - for key-value pairs 
+- set, frozenset - for unique collections 
+- bool - for True/False - None - represents no value
+
+2. Mutable vs. Immutable Types with Examples
+- Mutable: Can change after creation (e.g., list, dict) 
+- Immutable: Cannot change after creation (e.g., int, str, tuple) 
+
+3. Variable Scope: Local, Global, and Nonlocal 
+- Local: Defined inside a function 
+- Global: Defined outside all functions 
+- Nonlocal: Refers to variables in outer (enclosing) functions 
+
+4. How List Comprehensions Work Under the Hood 
+List comprehensions are a short way to create lists using a loop in one line. Python compiles them to fast and efficient code. 
+
+5. Difference Between append() and extend() 
+- append(): Adds one item to the end of the list 
+- extend(): Adds each item from another list to the current list 
+
+6. Unpacking with * in Function Calls 
+The * is used to unpack lists or tuples into individual arguments when calling a function. 
+
+7. Exception Handling (try/except/finally)
+ - try: Code that may cause an error 
+- except: Handles the error 
+- finally: Runs no matter what (used for cleanup) 
+
+8. Python Modules and Packages
+ - Module: A single Python file with code 
+- Package: A folder with multiple modules and an __init__.py file 
+
+9. How with Statement Manages Resources 
+It automatically opens and safely closes resources like files, even if there's an error. 
+
+10. Difference Between __init__, __repr__, and __str__ 
+- __init__: Initializes the object 
+- __repr__: Developer-friendly object representation 
+- __str__: User-friendly string of the object
